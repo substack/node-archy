@@ -52,7 +52,7 @@ beep
 
 # methods
 
-var archy = require('archy')
+    var archy = require('archy')
 
 ## archy(obj, prefix='', opts={})
 
