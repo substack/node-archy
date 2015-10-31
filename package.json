@@ -8,7 +8,7 @@
         "tape" : "~0.1.1"
     },
     "scripts" : {
-        "test" : "tap test"
+        "test" : "tap test/*.js"
     },
     "testling" : {
         "files" : "test/*.js",
