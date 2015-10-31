@@ -26,14 +26,14 @@ test('beep', function (t) {
     }, '', { unicode : false });
     t.equal(s, [
         'beep',
-        '+-- ity',
-        '`-- boop',
-        '  +-- o_O',
-        '  | +-- oh',
-        '  | | +-- hello',
-        '  | | `-- puny',
-        '  | `-- human',
-        '  `-- party!',
+        '├── ity',
+        '└─┬ boop',
+        '  ├─┬ o_O',
+        '  │ ├─┬ oh',
+        '  │ │ ├── hello',
+        '  │ │ └── puny',
+        '  │ └── human',
+        '  └── party!',
         ''
     ].join('\n'));
     t.end();
