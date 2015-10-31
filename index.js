@@ -3,11 +3,11 @@ module.exports = function archy (obj, prefix, opts) {
     if (!opts) opts = {};
     var chr = function (s) {
         var chars = {
-            '│' : '|',
-            '└' : '`',
-            '├' : '+',
-            '─' : '-',
-            '┬' : '-'
+            '│' : '\u2502',
+            '└' : '\u2514',
+            '├' : '\u251C',
+            '─' : '\u2500',
+            '┬' : '\u252C'
         };
         return opts.unicode === false ? chars[s] : s;
     };
