@@ -29,7 +29,9 @@
         "npm ls",
         "unicode",
         "pretty",
-        "print"
+        "print",
+        "tree",
+        "ascii"
     ],
     "author" : {
         "name" : "James Halliday",
